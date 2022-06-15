@@ -4,6 +4,6 @@
 int main(){
     printf("Hello World!\n");
     printf("世界，你好！\n");
-    
+    system("pause");
     return 0;
 }
