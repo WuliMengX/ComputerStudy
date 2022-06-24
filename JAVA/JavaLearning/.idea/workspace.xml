@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="686d81cb-b557-4827-8689-3c3dc72d994a" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearning/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearning/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="686d81cb-b557-4827-8689-3c3dc72d994a" name="变更" comment="IDEA" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,8 +64,16 @@
       <workItem from="1656079947293" duration="403000" />
       <workItem from="1656080366754" duration="330000" />
       <workItem from="1656080717869" duration="81000" />
-      <workItem from="1656080815522" duration="357000" />
+      <workItem from="1656080815522" duration="484000" />
     </task>
+    <task id="LOCAL-00001" summary="IDEA">
+      <created>1656081248273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656081248273</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IDEA" />
+    <option name="LAST_COMMIT_MESSAGE" value="IDEA" />
   </component>
 </project>
