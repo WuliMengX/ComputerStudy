@@ -2,4 +2,4 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/C C++/C++ Learning/.vs/C++ Learning/v17/Browse.VC.opendb
+*.opendb
