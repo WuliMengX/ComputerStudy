@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="686d81cb-b557-4827-8689-3c3dc72d994a" name="变更" comment="IDEA" />
+    <list default="true" id="686d81cb-b557-4827-8689-3c3dc72d994a" name="变更" comment="IDEA">
+      <change beforePath="$PROJECT_DIR$/../../C C++/C++ Learning/.vs/C++ Learning/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C C++/C++ Learning/.vs/C++ Learning/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C C++/C++ Learning/.vs/C++ Learning/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../C C++/C++ Learning/.vs/C++ Learning/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C C++/C++ Learning/.vs/C++ Learning/v17/Browse.VC.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C C++/C++ Learning/.vs/C++ Learning/v17/Browse.VC.db-wal" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
