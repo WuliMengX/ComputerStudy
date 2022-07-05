@@ -3,6 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/App.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Classroom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/edu/princeton/cs/algs4/Average.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/edu/princeton/cs/algs4/BinarySearch.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/edu/princeton/cs/algs4/Exercise.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/edu/princeton/cs/algs4/RandomSeq.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/edu/princeton/cs/algs4/fff.java" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>
