@@ -1,0 +1,3 @@
+/home/ubuntu/桌面/Git/ComputerStudy/JetbrainsProjects/ClionProject/cmake-build-debug/CMakeFiles/Main.dir
+/home/ubuntu/桌面/Git/ComputerStudy/JetbrainsProjects/ClionProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ubuntu/桌面/Git/ComputerStudy/JetbrainsProjects/ClionProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
