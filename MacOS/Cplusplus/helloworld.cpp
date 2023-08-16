@@ -6,8 +6,6 @@
 
 */
 
-
-
 int main() {
     
     int firstNumber = 12;
@@ -15,5 +13,6 @@ int main() {
 
     int sum = firstNumber + secondNumber;
     std::cout << sum << std::endl;
+
     return 0;
 }
