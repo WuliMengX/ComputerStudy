@@ -7,9 +7,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 from sklearn.metrics import mean_squared_error,mean_absolute_error,r2_score
-## 设置字符集，防止中文乱码
-mpl.rcParams['font.sans-serif'] = [u'simHei']
-mpl.rcParams['axes.unicode_minus'] = False
 
 flag = True
 # 一、构造数据
@@ -47,9 +44,9 @@ predict_y = X * theta
 # 查看MSE和R^2
 print(Y.shape)
 print(predict_y.shape)
-mse = mean_squared_error(y_true=Y,y_pred=predict_y)
+mse = mean_squared_error(y_true=np.asarray(Y),y_pred=np.asarray(predict_y))
 print("MSE",mse)
-r2 = r2_score(y_true=Y,y_pred=predict_y)
+r2 = r2_score(y_true=np.asarray(Y),y_pred=np.asarray(predict_y))
 print("r^2",r2)
 
 # print(predict_y)

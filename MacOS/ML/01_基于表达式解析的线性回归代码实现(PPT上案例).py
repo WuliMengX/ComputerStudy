@@ -9,9 +9,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.metrics import mean_squared_error, r2_score
 
-# 设置字符集，防止中文乱码
-mpl.rcParams['font.sans-serif'] = [u'simHei']
-mpl.rcParams['axes.unicode_minus'] = False
 # 一、构造数据
 X1 = np.array([10, 15, 20, 30, 50, 60, 60, 70]).reshape((-1, 1))  # -1表示未知的行和列数
 Y = np.array([0.8, 1.0, 1.8, 2.0, 3.2, 3.0, 3.1, 3.5]).reshape((-1, 1))
