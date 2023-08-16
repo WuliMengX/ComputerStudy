@@ -2,6 +2,7 @@
 """
 Create on 19/3/2
 """
+import sys
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -9,22 +10,22 @@ import numpy as np
 from sklearn.metrics import mean_squared_error, r2_score
 
 # 设置字符集，防止中文乱码
-mpl.rcParams["font.sans-serif"] = ["simHei"]
-mpl.rcParams["axes.unicode_minus"] = False
+mpl.rcParams['font.sans-serif'] = [u'simHei']
+mpl.rcParams['axes.unicode_minus'] = False
 # 一、构造数据
-X1 = np.array([10, 15, 20, 30, 50, 60, 60, 70]).reshape((-1, 1))
+X1 = np.array([10, 15, 20, 30, 50, 60, 60, 70]).reshape((-1, 1))  # -1表示未知的行和列数
 Y = np.array([0.8, 1.0, 1.8, 2.0, 3.2, 3.0, 3.1, 3.5]).reshape((-1, 1))
 
 # 添加一个截距项对应的X值 np.column_stack()
 # X = np.hstack((np.ones_like(X1), X1))
-X = np.column_stack((np.ones_like(X1), X1))
+X = np.column_stack((np.ones_like(X1), X1))  # 将两个数组以列的方式组合
 # 不加入截距项
 # X = X1
 # print(X)
 # print(Y)
 # sys.exit()
 # 二、为了求解比较方便，将numpy的'numpy.ndarray'的数据类型转换为矩阵的形式的。
-X = np.mat(X)
+X = np.mat(X)  # 将数组转换为矩阵 返回类型为matrix
 Y = np.mat(Y)
 # print(X)
 # print(Y)
@@ -39,9 +40,9 @@ print(predict_y)
 # 查看MSE和R^2
 print(Y.shape)
 print(predict_y.shape)
-mse = mean_squared_error(y_true=Y, y_pred=predict_y)
+mse = mean_squared_error(y_true=np.asarray(Y), y_pred=np.asarray(predict_y))
 print("MSE", mse)
-r2 = r2_score(y_true=Y, y_pred=predict_y)
+r2 = r2_score(y_true=np.asarray(Y), y_pred=np.asarray(predict_y))
 print("r^2", r2)
 
 x_test = [[1, 55]]
@@ -50,8 +51,8 @@ print("价格：", y_test_hat)
 
 # print(predict_y)
 # 四、画图可视化
-plt.plot(X1, Y, "bo", label="真实值")
-plt.plot(X1, predict_y, "r--o", label="预测值")
+plt.plot(X1, Y, "bo", label="Reality")
+plt.plot(X1, predict_y, "r--o", label="Prediction")
 plt.legend(loc="lower right")
 plt.show()
 
